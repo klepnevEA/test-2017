@@ -1,0 +1,24 @@
+.content
+	.form_container
+		.form_container__title Форма
+		.form_container__block
+			form.form_container__tag#form_container__tag()
+				.form_container__wrapper
+					.form_container__base
+					.form_container__label
+						label.form_container__name(for="name") Имя
+						.form_container__Label_block
+							input.form_container__input(type="text" name="name" id="name")
+							.form_container__err Ничего не указано	
+					.form_container__label
+						label.form_container__name(for="family") Фамилия 
+						.form_container__Label_block
+							input.form_container__input(type="text" name="family" id="family")
+							.form_container__err Ничего не указано
+				.form_container__wrapper_hidden
+					.form_container__label
+						label.form_container__name(for="mail") Эл. почта
+						.form_container__Label_block
+							input.form_container__input(type="text" name="mail" id="mail")
+							.form_container__err Ничего не указано
+				button.form_container__submit(type="button") Отправить
